@@ -7,3 +7,4 @@ SoftServe course homework repo
    ####  [Next version](https://github.com/margaretgerman/softserve/blob/master/nextVersion.js " link")
    
 ## Day 6 homework
+  #### [TicTacToe](https://github.com/margaretgerman/softserve/blob/master/TicTacToe.js " link")
