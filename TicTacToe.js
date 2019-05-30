@@ -10,10 +10,10 @@ function tictactoe(input) {
     for (let i = 0; i < 3; i++) {
       if (input[i].includes(0)) {
         winner = -1;
-      } else winner = 0;
+      } 
     }
   }
-
+  if (!winner) return 0;
   return winner;
 }
 
