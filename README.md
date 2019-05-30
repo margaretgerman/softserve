@@ -5,3 +5,5 @@ SoftServe course homework repo
 
  #### [Meeting/Spare chairs](https://github.com/margaretgerman/softserve/blob/master/meeting-chairs.js " link")
    ####  [Next version](https://github.com/margaretgerman/softserve/blob/master/nextVersion.js " link")
+   
+## Day 6 homework
