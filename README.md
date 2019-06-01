@@ -1,6 +1,9 @@
 # softserve
 SoftServe course homework repo
 
+## Day 4 homework
+  #### [Football](https://github.com/margaretgerman/softserve/blob/master/football.js " link")
+
 ## Day 5 homework
 
  #### [Meeting/Spare chairs](https://github.com/margaretgerman/softserve/blob/master/meeting-chairs.js " link")
