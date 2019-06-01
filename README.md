@@ -11,3 +11,4 @@ SoftServe course homework repo
    
 ## Day 6 homework
   #### [TicTacToe](https://github.com/margaretgerman/softserve/blob/master/TicTacToe.js " link")
+   #### [Ships](https://github.com/margaretgerman/softserve/blob/master/ships.js " link")
