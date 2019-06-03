@@ -98,6 +98,8 @@ function split(str, separator='', limit) {
 //repeat('privet', 2.5);
 
 function indexOf(str, searching, position = false) {
+	if (position >= str.length && searching !== '') return -1;
+    	if (position >= str.length && searching == '') return str.length;
 	let result=-1, workStr;
 	if (position) {
 		workStr = str.substring(position,str.length);
