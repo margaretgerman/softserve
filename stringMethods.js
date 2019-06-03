@@ -58,7 +58,7 @@ function toUpperCase(str) {
 }
 //toUpperCase('a-z privet medved а-я');
 
-function split(str, separator='') {
+function split(str, separator='', limit) {
     let currentWord = '', result = [];
 
     for (let i=0; i<str.length; i++) {
@@ -68,6 +68,7 @@ function split(str, separator='') {
             result.push(currentWord);
             currentWord = '';
         }
+        if (result.length == limit) break;
     }
     return result;
 }
