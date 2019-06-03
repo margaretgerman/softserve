@@ -143,8 +143,9 @@ function lastIndexOf(str, searching, position = false) {
 //lastIndexOf('канал','а', 0);
 //('канал'.lastIndexOf('а', 0);
 
-function endsWith(str, ending) {
-	let initialEnding;
+function endsWith(str, ending, position=false) {
+    let initialEnding;
+    if (position) str = str.substr(0, position);
 	initialEnding = str.substr(str.length - ending.length);
 	if (initialEnding == ending) return true
 	else return false;
