@@ -112,8 +112,8 @@ function indexOf(str, searching, position = false) {
 			
 			if (j === searching.length - 1) {
         return i;
-      } 
-		}
+        } 
+	}
 	}
 	return result;
 }
