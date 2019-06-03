@@ -17,16 +17,21 @@ function substr(str, start = 0, end) {
 substr('stroka', 1);
 
 function trim(str) {
-  let stringArray = [], res = [];
-  stringArray = str.split(' ');
-  for (let i=0;i<stringArray.length; i++) {
-      if (stringArray[i] == ' ' || stringArray[i] == '')  stringArray.shift();
-  }
+    let stringArray = [], res = [];
+    stringArray = str.split(' ');
+    for (let i=0;i<stringArray.length; i++) {
+        if (stringArray[0] == ' ' )  {
+            stringArray.shift();
+        }
+         else break;
+    }
 
-  for (let i=stringArray.length; i>0; i--) {
-      if (stringArray[i] == ' '|| stringArray[i] == '')  stringArray.pop();
-  }
-  return stringArray.join('');
+    for (let i=stringArray.length; i>0; i--) {
+        if (stringArray[stringArray.length -1] == ' ')  {
+            stringArray.pop();
+        } else break;
+    }
+    return stringArray.join(' ');
 }
 trim('     goo goo ga ga   ');
 
