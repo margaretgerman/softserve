@@ -17,3 +17,4 @@ SoftServe course homework repo
 
 
 ## Elementary tasks
+ #### [Envelopes](https://github.com/margaretgerman/softserve/blob/master/rectangles.js " link")
