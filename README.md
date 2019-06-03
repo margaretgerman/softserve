@@ -14,3 +14,6 @@ SoftServe course homework repo
    #### [Ships](https://github.com/margaretgerman/softserve/blob/master/ships.js " link")
   ## Day 7 homework
   #### [String Methods](https://github.com/margaretgerman/softserve/blob/master/stringMethods.js " link")
+
+
+## Elementary tasks
