@@ -20,8 +20,6 @@ SoftServe course homework repo
   ## Day 9 homework
   #### [Classes Analysis & Tests](https://github.com/margaretgerman/softserve/tree/master/Classes%20Analysis " link")
   Please note that analysis is implemented in form of comments in slass.js file.
-  
-  https://github.com/margaretgerman/softserve/tree/master/Classes%20Analysis
 
 
 ## Elementary tasks
