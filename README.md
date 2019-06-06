@@ -3,10 +3,10 @@ SoftServe course homework repo
 
  ## Day 11 homework
   #### [Time Countdown](https://github.com/margaretgerman/softserve/tree/master/nasaTime.js " link")
- ## Day 9 homework
+ ## Day 10 homework
   #### [Classes Analysis & Tests](https://github.com/margaretgerman/softserve/tree/master/Classes%20Analysis " link")
   Please note that analysis is implemented in form of comments in class.js file.
- ## Day 8 homework
+ ## Day 9 homework
   #### [Nacci sequences](https://github.com/margaretgerman/softserve/blob/master/nacciSequences.js " link")
  ## Day 7 homework
   #### [String Methods](https://github.com/margaretgerman/softserve/blob/master/stringMethods.js " link")
