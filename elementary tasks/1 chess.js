@@ -32,7 +32,6 @@ function chess(height, width, sym) {
   return res;
 }
 
-console.log(chess(4, 4, ''));
 function checkInput(h, w, symb) {
   let isSymb = (symb.length!==1 || symb ==' ') ? false : true;
   let symbIsString = (typeof symb === 'string');
