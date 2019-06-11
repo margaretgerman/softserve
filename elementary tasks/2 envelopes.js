@@ -32,19 +32,3 @@ function calculate(a, b, p, q) {
   if (b>=formula) secondCondition = true;
   return (firstCondition && secondCondition);
 }
-
-// obj1={a: 20, b:8,};
-// obj2={c: 0.1, d:21,};
-
-// obj1={a: 20, b:8,};
-// obj2={c: 19, d:7,};
-
-//obj1={c: 12, d:1,};
-//obj2={a: 2, b:4,};
-
-obj1={c: true, d:4,};
-obj2={a: 70, b:40,};
-
-console.log(rectangles(obj1, obj2));
-//вывести меньший конверт
-//2 объекта по 2 свойства со значениями typeof number, 
