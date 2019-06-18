@@ -1,9 +1,9 @@
-const errorObject = {
+function rectangles(rect1, rect2) {
+  const errorObject = {
   status: 'failed',
   reason: 'Incorrect input',
-}
+  }
 
-function rectangles(rect1, rect2) {
   let ab=Object.values(rect1), 
       pq=Object.values(rect2), 
       result = 0;
