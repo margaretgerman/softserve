@@ -14,6 +14,7 @@ function main() {
         pet.color = animal.color;
         pet.price = animal.price;
         pet.pic = animal.pic;
+        pet.amount = animal.amount;
         container.innerHTML += pet.showCard();
         allAnimals.push(pet);
         })
@@ -22,19 +23,18 @@ function main() {
   };
   xmlhttp.open("GET", url, true);
   xmlhttp.send();
-
-  return allAnimals;
 }
 
 
 
 class Animal {
-  constructor (species, breed, color, price, pic) {
+  constructor (species, breed, color, price, pic, amount) {
     species,
     breed,
     color,
     price,
-    pic
+    pic,
+    amount
   }
 
   showCard() {
@@ -53,9 +53,24 @@ class Animal {
                         <p>Color: ${this.color}</p>
                         <p>Breed: ${this.breed}</p>
                         <p>Price: ${this.price}</p>
-                        
+                        <p>Left in store: ${this.amount}</p>
                         </div>
+                        <nav class="level is-mobile">
+                    <div class="level-left">
+                      <a class="level-item" aria-label="reply">
+                        <span class="icon is-small">
+                          <i class="fas fa-cart-plus"></i>
+                        </span>
+                      </a>
+                      <a class="level-item" aria-label="like">
+                      <span class="icon is-small">
+                        <i class="fas fa-heart" aria-hidden="true"></i>
+                      </span>
+                    </a>
+                    </div>
+                  </nav>
                   </div>
+                  
               </article>
             </div>`;
     return result;
@@ -63,13 +78,5 @@ class Animal {
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  console.log("DOM fully loaded and parsed");
-  
-  
-  let result = main();
-  //console.log(result.length);
-  result.map(animal => {
-    //container.innerHTML += animal.showCard();
-    console.log(animal);
-  })
+ main();
 });
