@@ -1,0 +1,82 @@
+[
+  {
+    "species" : "cat",
+    "breed": "oriental",
+    "price": 50,
+    "amount": 5,
+    "weight": 700,
+    "color": "black",
+    "gender" : "male",
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/oriental.jpg"
+  },
+  {
+    "species" : "dog",
+    "breed": "pomeranian",
+    "price": 300,
+    "amount": 2,
+    "weight": 900,
+    "color": "white",
+    "gender" : "female",
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/pomeranian.jpg"
+  },
+  {
+    "species" : "fish",
+    "breed": "guppy",
+    "price": 10,
+    "amount": 23,
+    "weight": 10,
+    "color": "vibrant",
+    "gender" : "female",
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/guppy.jpg"
+  },
+  {
+    "species" : "bird",
+    "breed": "finch",
+    "price": 20,
+    "amount": 4,
+    "weight": 50,
+    "color": "grey",
+    "gender" : "female",
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/finch.jpg"
+  },
+  {
+    "species" : "cat",
+    "breed": "oriental",
+    "price": 50,
+    "amount": 3,
+    "weight": 800,
+    "color": "white",
+    "gender" : "female",
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/oriental.jpg"
+  },
+  {
+    "species" : "dog",
+    "breed": "pomeranian",
+    "price": 300,
+    "amount": 3,
+    "weight": 900,
+    "color": "black",
+    "gender" : "male",
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/pomeranian.jpg"
+  },
+  {
+    "species" : "fish",
+    "breed": "guppy",
+    "price": 10,
+    "amount": 10,
+    "weight": 10,
+    "color": "vibrant",
+    "gender" : "male",
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/guppy.jpg"
+  },
+  {
+    "species" : "bird",
+    "breed": "finch",
+    "price": 20,
+    "amount": 3,
+    "weight": 50,
+    "color": "grey",
+    "gender" : "male",
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/finch.jpg"
+  }
+]

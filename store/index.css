@@ -1,0 +1,16 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  }
+
+.box {
+  display: inline-block;
+  margin: 10px;
+}
+
+p {
+  text-transform: capitalize;
+}
+
+#container {
+  margin-top: 20px;
+}
