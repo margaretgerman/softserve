@@ -2,7 +2,7 @@
 SoftServe course homework repo
 
 ## Demo #2
-#### [Online Store](https://github.com/margaretgerman/softserve/tree/master/store " link")
+#### [Online Store](https://margaretgerman.github.io/softserve/store/ " link")
 
  ## Day 11 homework
   #### [Time Countdown](https://github.com/margaretgerman/softserve/tree/master/nasaTime.js " link")
