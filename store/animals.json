@@ -8,6 +8,7 @@
     "weight": 700,
     "color": "black",
     "gender" : "male",
+    "life" : 13, 
     "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/oriental_black.jpg"
   },
   {
@@ -19,6 +20,7 @@
     "weight": 900,
     "color": "white",
     "gender" : "female",
+    "life" : 14, 
     "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/pomeranian_white.jpg"
   },
   {
@@ -30,28 +32,31 @@
     "weight": 10,
     "color": "yellow",
     "gender" : "female",
+    "life" : 2, 
     "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/guppy_yellow.jpg"
   },
   {
     "id": 4,
     "species" : "bird",
     "breed": "finch",
-    "price": 20,
+    "price": 17,
     "amount": 4,
     "weight": 50,
     "color": "purple",
     "gender" : "female",
+    "life" : 12, 
     "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/purple_finch.jpg"
   },
   {
     "id": 5,
     "species" : "cat",
     "breed": "oriental",
-    "price": 50,
+    "price": 70,
     "amount": 3,
     "weight": 800,
     "color": "white",
     "gender" : "female",
+    "life" : 13, 
     "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/oriental_white.jpg"
   },
   {
@@ -63,17 +68,19 @@
     "weight": 900,
     "color": "black",
     "gender" : "male",
+    "life" : 14, 
     "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/pomeranian_black.jpg"
   },
   {
     "id": 7,
     "species" : "fish",
     "breed": "guppy",
-    "price": 10,
+    "price": 16,
     "amount": 10,
     "weight": 10,
     "color": "pink",
     "gender" : "male",
+    "life" : 2, 
     "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/guppy_pink.jpg"
   },
   {
@@ -85,6 +92,80 @@
     "weight": 50,
     "color": "coal",
     "gender" : "male",
+    "life" : 12, 
     "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/zebra_finch.jpg"
+  },
+  {
+    "id": 9,
+    "species" : "dog",
+    "breed": "australian sheppard",
+    "price": 200,
+    "amount": 2,
+    "weight": 1200,
+    "color": "coal",
+    "gender" : "male",
+    "life" : 12, 
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/Australian.jpg"
+  },
+  {
+    "id": 10,
+    "species" : "fish",
+    "breed": "betta",
+    "price": 29,
+    "amount": 12,
+    "weight": 25,
+    "color": "blue",
+    "gender" : "female",
+    "life" : 2, 
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/betta-fish.jpg"
+  },
+  {
+    "id": 11,
+    "species" : "fish",
+    "breed": "discus",
+    "price": 19,
+    "amount": 9,
+    "weight": 35,
+    "color": "orange",
+    "gender" : "male",
+    "life" : 2, 
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/discus_fish.jpg"
+  },
+  {
+    "id": 12,
+    "species" : "bird",
+    "breed": "cockatoo",
+    "price": 275,
+    "amount": 1,
+    "weight": 760,
+    "color": "white",
+    "gender" : "male",
+    "life" : 50, 
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/cockatoo.jpg"
+  },
+  {
+    "id": 13,
+    "species" : "dog",
+    "breed": "labradoodle",
+    "price": 360,
+    "amount": 2,
+    "weight": 1000,
+    "color": "brown",
+    "gender" : "female",
+    "life" : 15, 
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/labradoodle.jpg"
+  },
+  {
+    "id": 14,
+    "species" : "cat",
+    "breed": "munchkin",
+    "price": 240,
+    "amount": 2,
+    "weight": 500,
+    "color": "grey",
+    "gender" : "female",
+    "life" : 13, 
+    "pic" : "https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/munchkin_cat.jpg"
   }
+
 ]
