@@ -4,68 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <script src="index.js"></script>
+    <script type = 'module' src="index.js"></script>
     <title>Zootopia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" type="text/css" 
     href="index.css"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a
-          role="button"
-          class="navbar-burger burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-
-      <div id="navbarBasicExample" class="navbar-menu">
+      <div id="" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item">
+          <a class="navbar-item" data-name = 'home'>
             Home
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" data-name = 'dog'>
             Dogs
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" data-name = 'cat'>
             Cats
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" data-name = 'fish'>
             Fishes
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" data-name = 'bird'>
             Birds
           </a>
           </div>
         </div>
 
         <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-primary">
+          <div class="navbar-item login" data-name = 'login'>
+            <div class="buttons" >
+              <a class="button is-link" >
                 <strong>Log In</strong>
               </a>
             </div>
           </div>
 
-          <a class="navbar-item">
+          <a class="navbar-item" data-name = 'cart'>
               Cart
         </a>
-        <a class="navbar-item">
+        <a class="navbar-item" data-name = 'favorites'>
             Favorites
         </a>
 
@@ -75,13 +61,13 @@
             </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item">
+              <a class="navbar-item" data-name = 'en'>
                 EN
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item" data-name = 'ua'>
                 UA
               </a>
-              <a class="navbar-item">
+              <a class="navbar-item" data-name = 'ru'>
                 RU
               </a>
             </div>
@@ -89,10 +75,41 @@
         </div>
       </div>
     </nav>
-
-
-        <div id = 'container' class="columns is-multiline is-centered .is-variable"></div>
-    
-    
+    <div id = 'modal' ></div> 
+        <div id = 'container' class="columns is-multiline is-centered .is-variable">
+          <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child ">
+              <div class="content">
+                <figure class=".image">
+                  <img src="https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/cat.jpg">
+                </figure>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-info">
+              <div class="content">
+                <p class="title">Zoo Shop</p>
+               
+                <div class="content">
+                  <!-- Content -->
+                  <h2 class="title">Log In to start shopping</h2>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child ">
+              <div class="content">
+                  <figure class=".image">
+                      <img src="https://raw.githubusercontent.com/margaretgerman/softserve/master/store/img/dog.jpg">
+                    </figure>
+              </div>
+            </article>
+          </div>
+        </div>
+        
+        </div> 
   </body>
 </html>
