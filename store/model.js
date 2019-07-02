@@ -37,9 +37,23 @@ export default class Model {
       data.map(obj => {
           if (obj.species == animal)
               filteredAnimals.push(obj);
-          console.log(obj);
       })
       contr.showView(filteredAnimals);
-      console.log(filteredAnimals);
+  }
+
+  searchAnimals(input, contr) {
+    const data = JSON.parse(localStorage.getItem('data'));
+    let foundAnimals = [];
+    let regex = new RegExp(input,"gi");
+    data.map(obj => {
+      if (obj.species.match(regex) || obj.breed.match(regex)) {
+      foundAnimals.push(obj); 
+    }
+    })
+    contr.showView(foundAnimals);
+  }
+
+  emptyCart(){
+    localStorage.removeItem('cart');
   }
 }
