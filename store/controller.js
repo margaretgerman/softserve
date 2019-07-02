@@ -3,14 +3,13 @@ import View from "./view.js";
 
 export default class Controller {
     constructor() {
-        this.model = new Model();
-        this.view = new View();
+        this.model = new Model(this);
+        this.view = new View(this);
         this.addNavListeners();
     }
 
     init() {
         this.model.loadJSON(this);
-        this.addNavListeners();
     }
 
     addNavListeners() {
@@ -21,19 +20,30 @@ export default class Controller {
 
     handleNavbarClick(el) {
         let clicked = el.currentTarget.dataset.name;
-
+        let input = document.querySelector('.search');
+        input.addEventListener('keyup', ()=>{
+          this.model.searchAnimals(input.value, this);
+        })
         switch (clicked) {
             case ('cart'): {
                 let cartContent = this.model.getCart();
                 (cartContent !== null) ? cartContent = cartContent.split(","): cartContent = 'Empty cart';
-                this.view.showCart(cartContent);
+                this.view.showCart(cartContent, this);
                 break;
+            }
+
+            case ('en'):
+            case ('ru'):
+            case ('ua'): {
+              this.changeLanguage(clicked);
+              break;
             }
 
             case ('home'):
             case ('login'): {
                 this.init();
                 document.querySelector('.login').style.display = 'none';
+                document.querySelector('.search').classList.remove('is-hidden');
                 break;
             }
 
@@ -48,13 +58,18 @@ export default class Controller {
         this.view.render(data, this);
     }
 
-    changeLanguage() {
-        // let navBar = document.querySelector('.navbar-dropdown');
-        // navBar.addEventListener("click", () => {console.log(navBar.firstChild.textContent)}, false);
+    changeLanguage(clicked) {
+        console.log('change to ', clicked);
+        this.view.render(data, this);
     }
 
     addToCart(name, ev) {
         this.showView(this.model.handleCart(ev.currentTarget.dataset.name, 1));
+    } 
+
+    emptyCart() {
+      this.model.emptyCart();
+      this.view.showCart();
     }
 
     showInfo(name, el) {
